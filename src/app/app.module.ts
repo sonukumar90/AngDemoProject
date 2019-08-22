@@ -16,7 +16,6 @@ import { AboutComponent } from './Pages/about/about.component';
 import { AdminComponent } from './Admin/admin/admin.component';
 import { AdminDasboardComponent } from './Admin/admin-dasboard/admin-dasboard.component';
 import { HeaderComponent } from './header/header.component';
-import { LogoutComponent } from './pages/logout/logout.component';
 import { EditComponent } from './page/edit/edit.component';
 
 @NgModule({
@@ -31,7 +30,6 @@ import { EditComponent } from './page/edit/edit.component';
     AdminComponent,
     AdminDasboardComponent,
     HeaderComponent,
-    LogoutComponent,
     EditComponent
   ],
   imports: [
